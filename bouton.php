@@ -9,7 +9,7 @@ include_once('controllers/authentication.php')
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Composant</title>
+    <title>Créer un bouton</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,7 +31,10 @@ include_once('controllers/authentication.php')
         <div class="cta-editor_view">
             <div class="cta-editor_box"></div>
         </div>
-        <div class="cta-editor_extra"></div>
+        <div class="cta-editor_extra">
+        <button class="imv-editor_button">Récupérer le code</button>
+
+        </div>
     </div>
     <div class="cta-style_container">
         <h2 class="cta-style_title">Personalisation</h2>

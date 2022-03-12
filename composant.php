@@ -25,7 +25,7 @@ include_once('controllers/authentication.php')
             </div>
             <p class="component-card_text">Associer une action a un bouton et le modifier visuellement.</p>
         </div>
-        <div class="component-card">
+        <div class="component-card" onclick="document.location.assign('image-video.php')">
             <div class="component-card_header">
             <img src="assets/image.png" alt="" class="component-card_icon">
             <h2 class="component-card_title">Image et vidéos</h2>
